@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run lint-staged for staged files only
+echo "Running pre-commit checks..."
+
+# Check if lint-staged is available
+if command -v pnpm &> /dev/null; then
+  pnpm lint-staged 2>/dev/null || pnpm lint
+fi

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizational Mining Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding: 20px; background-color: #f8f9fa; }
+        .card { margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .card-header { font-weight: bold; background-color: #fff; border-bottom: 2px solid #f0f0f0; }
+        .metric-value { font-size: 2em; font-weight: bold; color: #0d6efd; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4">Organizational Mining Dashboard</h1>
+        
+        <!-- Organization Evolution -->
+        <div class="card">
+            <div class="card-header">Organization Evolution (Q1 2024)</div>
+            <div class="card-body">
+                <div class="row text-center" id="evolution-stats">
+                    <div class="col-md-4">
+                        <div class="metric-value" id="active-users">-</div>
+                        <div>Active Users</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="metric-value" id="active-roles">-</div>
+                        <div>Active Roles</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="metric-value" id="total-interactions">-</div>
+                        <div>Total Interactions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Interactions -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Top Role Interactions</div>
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Role A</th>
+                                    <th>Role B</th>
+                                    <th>Weight</th>
+                                </tr>
+                            </thead>
+                            <tbody id="role-interactions-body">
+                                <tr><td colspan="3">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">User Collaboration (April 2024)</div>
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>User A</th>
+                                    <th>User B</th>
+                                    <th>Weight</th>
+                                </tr>
+                            </thead>
+                            <tbody id="user-collaboration-body">
+                                <tr><td colspan="3">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:8000';
+
+        async function fetchEvolution() {
+            try {
+                const response = await fetch(`${API_URL}/organization/evolution?start_month=2024-01&end_month=2024-03`);
+                const data = await response.json();
+                document.getElementById('active-users').textContent = data.active_users || 0;
+                document.getElementById('active-roles').textContent = data.active_roles || 0;
+                document.getElementById('total-interactions').textContent = data.total_interactions || 0;
+            } catch (error) {
+                console.error('Error fetching evolution:', error);
+            }
+        }
+
+        async function fetchTopInteractions() {
+            try {
+                const response = await fetch(`${API_URL}/roles/top-interactions?limit=5`);
+                const data = await response.json();
+                const tbody = document.getElementById('role-interactions-body');
+                tbody.innerHTML = '';
+                data.forEach(row => {
+                    tbody.innerHTML += `
+                        <tr>
+                            <td>${row.role_a}</td>
+                            <td>${row.role_b}</td>
+                            <td>${row.weight}</td>
+                        </tr>
+                    `;
+                });
+            } catch (error) {
+                console.error('Error fetching interactions:', error);
+            }
+        }
+
+        async function fetchUserCollaboration() {
+            try {
+                const response = await fetch(`${API_URL}/users/collaboration?month=2024-04`);
+                const data = await response.json();
+                const tbody = document.getElementById('user-collaboration-body');
+                tbody.innerHTML = '';
+                data.slice(0, 5).forEach(row => {
+                    tbody.innerHTML += `
+                        <tr>
+                            <td>${row.user_a}</td>
+                            <td>${row.user_b}</td>
+                            <td>${row.weight}</td>
+                        </tr>
+                    `;
+                });
+            } catch (error) {
+                console.error('Error fetching user collaboration:', error);
+            }
+        }
+
+        // Load all data
+        fetchEvolution();
+        fetchTopInteractions();
+        fetchUserCollaboration();
+    </script>
+</body>
+</html>

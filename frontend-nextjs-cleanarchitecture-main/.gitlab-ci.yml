@@ -1,0 +1,84 @@
+# GitLab CI/CD Pipeline for MCI Next.js Frontend Template
+# Runs ESLint, TypeScript check, and build on every push
+
+image: node:20-alpine
+
+# Cache node_modules for faster builds
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .pnpm-store/
+
+stages:
+  - install
+  - lint
+  - build
+
+# Variables
+variables:
+  PNPM_HOME: /root/.local/share/pnpm
+  PATH: /root/.local/share/pnpm:$PATH
+
+# Before script - Install pnpm
+before_script:
+  - corepack enable
+  - corepack prepare pnpm@latest --activate
+  - pnpm config set store-dir .pnpm-store
+
+# Install dependencies
+install:
+  stage: install
+  script:
+    - pnpm install --frozen-lockfile
+  artifacts:
+    paths:
+      - node_modules/
+    expire_in: 1 hour
+
+# ESLint check
+lint:
+  stage: lint
+  needs: [install]
+  script:
+    - echo "Running ESLint..."
+    - pnpm lint
+  allow_failure: false
+
+# TypeScript type check
+typecheck:
+  stage: lint
+  needs: [install]
+  script:
+    - echo "Running TypeScript check..."
+    - pnpm typecheck
+  allow_failure: false
+
+# Build the application
+build:
+  stage: build
+  needs: [lint, typecheck]
+  script:
+    - echo "Building application..."
+    - pnpm build
+  artifacts:
+    paths:
+      - .next/
+    expire_in: 1 day
+  only:
+    - main
+    - develop
+    - merge_requests
+
+# Optional: Preview deployment for merge requests
+# Uncomment and configure if using Vercel/Netlify preview deployments
+# preview:
+#   stage: deploy
+#   needs: [build]
+#   script:
+#     - echo "Deploying preview..."
+#   only:
+#     - merge_requests
+#   environment:
+#     name: preview/$CI_COMMIT_REF_SLUG
+#     url: https://preview-$CI_COMMIT_SHORT_SHA.example.com
