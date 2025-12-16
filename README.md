@@ -20,8 +20,8 @@ The system follows a **Clean Architecture** pattern and consists of three main c
 
 ```mermaid
 graph LR
-    A[Frontend (Next.js)] -->|REST API| B[Backend (FastAPI)]
-    B -->|Bolt Protocol| C[Database (Neo4j)]
+    A["Frontend (Next.js)"] -->|REST API| B["Backend (FastAPI)"]
+    B -->|Bolt Protocol| C["Database (Neo4j)"]
 ```
 
 1.  **Frontend (`frontend-nextjs-cleanarchitecture-main`)**:
@@ -103,8 +103,10 @@ For more detailed documentation on specific components, please refer to their re
 
 ## 👥 Authors
 
-**Group 2 - Enterprise Systems Class**
+- **Fellyla Fiorenza Wilianto** (5025221110)
+- **Muhammad Fahmi Syahputra** (5025221302)
+- **Faizal Aldy Armiriawan** (5025231266)
 
 ## 📄 License
 
-MIT License
+This is for Final Project of System Enterprise class of Informatics Department Institut Teknologi Sepuluh Nopember
