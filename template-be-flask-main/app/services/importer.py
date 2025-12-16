@@ -57,7 +57,7 @@ class DataImporter:
         return count
 
     def project_graph(self):
-    def project_graph(self):
+
         query_collab = """
         MATCH (p1:Person)-[w1:WORKED_ON]->(c:Case)<-[w2:WORKED_ON]-(p2:Person)
         WHERE p1 <> p2 AND w1.month = w2.month
