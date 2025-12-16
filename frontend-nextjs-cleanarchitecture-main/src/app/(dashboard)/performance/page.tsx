@@ -12,17 +12,20 @@ export default function PerformancePage() {
     const { t } = useTranslations();
     const [overtimeData, setOvertimeData] = useState<OvertimeRisk[]>([]);
     const [durationData, setDurationData] = useState<ProjectDuration[]>([]);
+    const [avgDuration, setAvgDuration] = useState<number>(0);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const [overtime, duration] = await Promise.all([
+                const [overtime, duration, avg] = await Promise.all([
                     analyticsApi.getOvertimeRisk(),
                     analyticsApi.getProjectDurations(),
+                    analyticsApi.getAverageProjectDuration(),
                 ]);
                 setOvertimeData(overtime);
                 setDurationData(duration);
+                setAvgDuration(avg);
             } catch (error) {
                 console.error('Failed to fetch performance data', error);
             } finally {
@@ -104,9 +107,15 @@ export default function PerformancePage() {
                                 )}
                             </TableBody>
                         </Table>
+                        {avgDuration > 0 && (
+                            <div className="mt-4 flex items-center justify-end gap-2 text-sm text-muted-foreground">
+                                <span>Average Duration:</span>
+                                <span className="font-bold text-foreground">{avgDuration} days</span>
+                            </div>
+                        )}
                     </CardContent>
                 </Card>
             </div>
-        </div>
+        </div >
     );
 }

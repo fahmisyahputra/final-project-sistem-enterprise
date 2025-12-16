@@ -27,8 +27,8 @@ export default function DashboardPage() {
       try {
         // Fetch initial data for summary
         const evolution = await analyticsApi.getOrganizationEvolution({
-          start_month: '2024-01',
-          end_month: '2024-12',
+          start_month: '2019-01',
+          end_month: '2019-12',
         });
 
         if (evolution) {
@@ -39,8 +39,8 @@ export default function DashboardPage() {
           });
         }
 
-        // Fetch trend data
-        const trend = await analyticsApi.getInteractionsTrend('2024');
+        // Fetch trend data (All time)
+        const trend = await analyticsApi.getInteractionsTrend();
         setTrendData(trend);
 
       } catch (error) {

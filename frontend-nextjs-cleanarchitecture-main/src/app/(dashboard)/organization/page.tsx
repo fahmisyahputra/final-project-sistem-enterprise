@@ -15,8 +15,8 @@ export default function OrganizationEvolutionPage() {
     const [data, setData] = useState<EvolutionMetric[]>([]);
     const [loading, setLoading] = useState(false);
     const [filters, setFilters] = useState({
-        start_month: '2024-01',
-        end_month: '2024-03',
+        start_month: '2019-01',
+        end_month: '2019-12',
     });
 
     const fetchData = async () => {

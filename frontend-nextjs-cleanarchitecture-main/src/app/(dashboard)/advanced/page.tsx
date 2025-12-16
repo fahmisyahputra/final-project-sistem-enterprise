@@ -94,9 +94,9 @@ export default function AdvancedAnalyticsPage() {
                                         <Cell
                                             key={`cell-${index}`}
                                             fill={
-                                                entry.avg_duration > 26 ? '#ef4444' : // Red for > 26h
-                                                    entry.avg_duration > 25 ? '#eab308' : // Yellow for 25-26h
-                                                        '#22c55e' // Green for < 25h
+                                                entry.avg_duration > 72 ? '#ef4444' : // Red for > 72h
+                                                    entry.avg_duration > 48 ? '#eab308' : // Yellow for 48-72h
+                                                        '#22c55e' // Green for < 48h
                                             }
                                         />
                                     ))}
@@ -106,6 +106,20 @@ export default function AdvancedAnalyticsPage() {
                     ) : (
                         <div className="flex h-full items-center justify-center">{t('common.noResults')}</div>
                     )}
+                    <div className="mt-4 flex items-center justify-center gap-6 text-sm">
+                        <div className="flex items-center gap-2">
+                            <div className="h-3 w-3 rounded-full bg-green-500" />
+                            <span>&lt; 48h (Good)</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="h-3 w-3 rounded-full bg-yellow-500" />
+                            <span>48h - 72h (Warning)</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="h-3 w-3 rounded-full bg-red-500" />
+                            <span>&gt; 72h (Critical)</span>
+                        </div>
+                    </div>
                 </CardContent>
             </Card>
 

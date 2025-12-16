@@ -1,0 +1,297 @@
+CaseID;NameActivity;timestamp;Resource;Role
+1043135155c9f584318f5d1077721420;User Story Upload;04-08-19 0:00;Diana;Customer
+1043135155c9f584318f5d1077721420;Activity Diagram Upload;05-01-19 10:00;Erfan;Designer
+1043135155c9f584318f5d1077721420;Use Case Diagram Upload;05-07-19 23:00;Lyora;Designer
+1043135155c9f584318f5d1077721420;Use Case Diagram Approval;05-10-19 12:00;Brendan;Assistant Project
+1043135155c9f584318f5d1077721420;Class Diagram Upload;05-12-19 13:00;Lyora;Designer
+1043135155c9f584318f5d1077721420;Class Diagram Approval;5-15-19 5:00;Brendan;Assistant Project
+1043135155c9f584318f5d1077721420;CDM and PDM Upload;5-17-19 15:00;Lyora;Designer
+1043135155c9f584318f5d1077721420;CDM and PDM Approval;5-19-19 10:00;Brendan;Assistant Project
+1043135155c9f584318f5d1077721420;Software Design Document Upload;5-21-19 22:00;Lyora;Designer
+1043135155c9f584318f5d1077721420;Customer Approval of Software Design;5-23-19 19:00;Diana;Customer
+1043135155c9f584318f5d1077721420;Scheduling;5-25-19 20:00;Lyora;Designer
+1043135155c9f584318f5d1077721420;Schedule Approval;5-28-19 1:00;Brendan;Assistant Project
+1043135155c9f584318f5d1077721420;Budget Proposal Upload;5-29-19 7:00;Alya;Finance
+1043135155c9f584318f5d1077721420;Budget Aproval;5-30-19 19:00;Yutika;Head Finance
+1043135155c9f584318f5d1077721420;Team Formation;5-31-19 20:00;Brendan;Assistant Project
+1043135155c9f584318f5d1077721420;Team Approval of Software Design;06-03-19 0:00;Christi;Lead Developer
+1043135155c9f584318f5d1077721420;Job Assignment;06-04-19 12:00;Farah;Project Manager
+1043135155c9f584318f5d1077721420;Development Process;06-05-19 23:00;Biandina;Developer
+1043135155c9f584318f5d1077721420;Feature Completion Checking;06-08-19 15:00;Dalila;Tester
+1043135155c9f584318f5d1077721420;Software Prototype Upload;06-09-19 18:00;Biandina;Developer
+1043135155c9f584318f5d1077721420;Customer Software Testing;06-12-19 14:00;Dalila;Tester
+1043135155c9f584318f5d1077721420;User Manual Upload;6-14-19 0:00;Dalila;Tester
+1043135155c9f584318f5d1077721420;Customer Approval of Application;6-15-19 1:00;Diana;Customer
+1043135155c9f584318f5d1077721420;Application Installaton;6-17-19 5:00;Biandina;Developer
+1121589915c9f9f173ece49015885070;User Story Upload;6-21-19 11:00;Riana;Customer
+1121589915c9f9f173ece49015885070;Development Process;08-10-19 22:00;Biandina;Developer
+1121589915c9f9f173ece49015885070;Software Prototype Upload;8-24-19 11:10;Biandina;Developer
+1121589915c9f9f173ece49015885070;End User Reviews Upload;09-01-19 18:00;Riana;Customer
+1244168695c9f9bd84cd266083435658;Use Case Diagram Upload;9-19-19 9:21;Putri;Designer
+1244168695c9f9bd84cd266083435658;Class Diagram Upload;9-23-19 7:12;Putri;Designer
+1244168695c9f9bd84cd266083435658;CDM and PDM Upload;9-27-19 11:20;Putri;Designer
+1244168695c9f9bd84cd266083435658;Software Design Document Upload;10-01-19 7:00;Putri;Designer
+1244168695c9f9bd84cd266083435658;Customer Approval of Software Design;10-03-19 10:00;Yesaya;Customer
+1244168695c9f9bd84cd266083435658;Scheduling;10-05-19 2:00;Putri;Designer
+1244168695c9f9bd84cd266083435658;Budget Proposal Upload;10-09-19 12:00;Alya;Finance
+1244168695c9f9bd84cd266083435658;Development Process;10-17-19 2:03;Charis;Developer
+1244168695c9f9bd84cd266083435658;Customer Software Testing;10-26-19 18:40;Taufiq;Tester
+1244168695c9f9bd84cd266083435658;Application Installaton;11-04-19 17:00;Charis;Developer
+1244168695c9f9bd84cd266083435658;End User Reviews Upload;11-06-19 7:00;Yesaya;Customer
+1244168695c9f9bd84cd266083435658;Good Features List Upload;11-09-19 4:00;Charis;Developer
+1517537405c9fac526e7b70031188028;User Story Upload;11-10-19 21:00;Yesaya;Customer
+1517537405c9fac526e7b70031188028;Development Process;01-02-20 20:00;Faqih;Developer
+1517537405c9fac526e7b70031188028;Feature Completion Checking;01-04-20 4:00;Dalila;Tester
+1517537405c9fac526e7b70031188028;Development Process;01-07-20 1:00;Dalila;Developer
+1517537405c9fac526e7b70031188028;Feature Completion Checking;01-09-20 13:00;Dalila;Tester
+1517537405c9fac526e7b70031188028;Software Prototype Upload;01-12-20 5:00;Faqih;Developer
+1517537405c9fac526e7b70031188028;Customer Software Testing;1-13-20 20:04;Dalila;Tester
+1517537405c9fac526e7b70031188028;User Manual Upload;1-16-20 14:13;Dalila;Tester
+1517537405c9fac526e7b70031188028;Customer Approval of Application;1-17-20 23:32;Yesaya;Customer
+1517537405c9fac526e7b70031188028;Software Prototype Upload;1-21-20 22:18;Faqih;Developer
+1517537405c9fac526e7b70031188028;Customer Software Testing;1-24-20 16:57;Dalila;Tester
+1517537405c9fac526e7b70031188028;End User Reviews Upload;02-02-20 8:00;Yesaya;Customer
+1517537405c9fac526e7b70031188028;Good Features List Upload;02-05-20 5:00;Faqih;Developer
+2146724895c9f6b17ecb7f5019977587;Activity Diagram Upload;2-16-20 11:44;Putri;Designer
+2146724895c9f6b17ecb7f5019977587;Activity Diagram Approval;2-18-20 21:05;Farah;Project Manager
+2146724895c9f6b17ecb7f5019977587;Use Case Diagram Upload;2-21-20 15:55;Putri;Designer
+2146724895c9f6b17ecb7f5019977587;Use Case Diagram Approval;2-23-20 8:16;Brendan;Assistant Project
+2146724895c9f6b17ecb7f5019977587;Class Diagram Upload;2-24-20 22:18;Putri;Designer
+2146724895c9f6b17ecb7f5019977587;Class Diagram Approval;2-27-20 20:07;Brendan;Assistant Project
+2146724895c9f6b17ecb7f5019977587;CDM and PDM Upload;2-29-20 0:28;Putri;Designer
+2146724895c9f6b17ecb7f5019977587;CDM and PDM Approval;03-01-20 2:00;Brendan;Assistant Project
+2146724895c9f6b17ecb7f5019977587;Software Design Document Upload;03-02-20 17:00;Putri;Designer
+2146724895c9f6b17ecb7f5019977587;Customer Approval of Software Design;03-04-20 5:00;Diana;Customer
+2146724895c9f6b17ecb7f5019977587;Scheduling;03-06-20 3:00;Putri;Designer
+2146724895c9f6b17ecb7f5019977587;Schedule Approval;03-09-20 3:00;Brendan;Assistant Project
+2146724895c9f6b17ecb7f5019977587;Budget Proposal Upload;03-10-20 5:00;Dewi;Finance
+2146724895c9f6b17ecb7f5019977587;Budget Aproval;03-12-20 2:00;Yutika;Head Finance
+2146724895c9f6b17ecb7f5019977587;Team Formation;3-13-20 23:18;Brendan;Assistant Project
+2146724895c9f6b17ecb7f5019977587;Team Approval of Software Design;3-16-20 21:26;Kaka;Lead Developer
+2146724895c9f6b17ecb7f5019977587;Job Assignment;3-19-20 16:38;Farah;Project Manager
+2146724895c9f6b17ecb7f5019977587;Development Process;3-20-20 17:32;Charis;Developer
+2146724895c9f6b17ecb7f5019977587;Feature Completion Checking;3-22-20 9:04;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;Software Prototype Upload;3-23-20 12:25;Iman;Developer
+2146724895c9f6b17ecb7f5019977587;Customer Software Testing;3-26-20 11:16;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;Development Process;3-28-20 0:26;Charis;Developer
+2146724895c9f6b17ecb7f5019977587;Feature Completion Checking;3-29-20 14:06;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;Software Prototype Upload;04-01-20 9:00;Charis;Developer
+2146724895c9f6b17ecb7f5019977587;Customer Software Testing;04-03-20 7:00;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;User Manual Upload;04-04-20 7:00;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;Customer Approval of Application;04-06-20 14:00;Diana;Customer
+2146724895c9f6b17ecb7f5019977587;Feature Completion Checking;04-08-20 16:00;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;Software Prototype Upload;04-11-20 1:00;Charis;Developer
+2146724895c9f6b17ecb7f5019977587;Customer Software Testing;4-14-20 0:27;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;User Manual Upload;4-15-20 18:16;Dalila;Tester
+2146724895c9f6b17ecb7f5019977587;Customer Approval of Application;4-17-20 20:36;Diana;Customer
+2146724895c9f6b17ecb7f5019977587;Application Installaton;4-19-20 22:18;Charis;Developer
+2146724895c9f6b17ecb7f5019977587;End User Reviews Upload;4-21-20 22:32;Diana;Customer
+2146724895c9f6b17ecb7f5019977587;Good Features List Upload;4-23-20 21:54;Charis;Developer
+2720148975c9f64f52dfb36075577753;User Story Upload;4-25-20 9:39;Yesaya;Customer
+2720148975c9f64f52dfb36075577753;Definition of Done (Dod) Setting;4-27-20 2:10;Yaya;Requirement Analyst
+2720148975c9f64f52dfb36075577753;Effort Estimation;4-29-20 15:07;Yaya;Requirement Analyst
+2720148975c9f64f52dfb36075577753;Prioritization;05-02-20 12:00;Yaya;Requirement Analyst
+2720148975c9f64f52dfb36075577753;Product Backlog Approval;05-03-20 15:00;Farah;Project Manager
+2720148975c9f64f52dfb36075577753;User Story Upload;05-06-20 8:00;Yesaya;Customer
+2720148975c9f64f52dfb36075577753;Definition of Done (Dod) Setting;05-08-20 4:00;Yaya;Requirement Analyst
+2720148975c9f64f52dfb36075577753;Effort Estimation;05-10-20 22:00;Yaya;Requirement Analyst
+2720148975c9f64f52dfb36075577753;Prioritization;5-13-20 9:29;Yaya;Requirement Analyst
+2720148975c9f64f52dfb36075577753;Product Backlog Approval;5-16-20 2:32;Farah;Project Manager
+2720148975c9f64f52dfb36075577753;Activity Diagram Upload;5-17-20 7:20;Putri;Designer
+2720148975c9f64f52dfb36075577753;Activity Diagram Approval;5-19-20 15:28;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;Activity Diagram Upload;5-21-20 16:24;Putri;Designer
+2720148975c9f64f52dfb36075577753;Activity Diagram Approval;5-23-20 20:45;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;Use Case Diagram Upload;5-26-20 19:33;Putri;Designer
+2720148975c9f64f52dfb36075577753;Use Case Diagram Approval;5-29-20 10:36;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;Class Diagram Upload;5-31-20 8:25;Putri;Designer
+2720148975c9f64f52dfb36075577753;Class Diagram Approval;06-01-20 23:00;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;CDM and PDM Upload;06-03-20 11:00;Putri;Designer
+2720148975c9f64f52dfb36075577753;CDM and PDM Approval;06-04-20 16:00;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;CDM and PDM Upload;06-06-20 13:00;Putri;Designer
+2720148975c9f64f52dfb36075577753;CDM and PDM Approval;06-09-20 5:00;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;Software Design Document Upload;06-10-20 9:00;Putri;Designer
+2720148975c9f64f52dfb36075577753;Customer Approval of Software Design;06-12-20 4:00;Yesaya;Customer
+2720148975c9f64f52dfb36075577753;Scheduling;6-14-20 4:34;Putri;Designer
+2720148975c9f64f52dfb36075577753;Schedule Approval;6-15-20 22:11;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;Budget Proposal Upload;6-18-20 13:17;Alya;Finance
+2720148975c9f64f52dfb36075577753;Budget Aproval;6-19-20 13:19;Yutika;Head Finance
+2720148975c9f64f52dfb36075577753;Team Formation;6-20-20 15:02;Marcel;Assistant Project
+2720148975c9f64f52dfb36075577753;Team Approval of Software Design;6-21-20 21:35;Christi;Lead Developer
+2720148975c9f64f52dfb36075577753;Job Assignment;6-23-20 15:49;Farah;Project Manager
+2720148975c9f64f52dfb36075577753;Development Process;6-25-20 17:33;Faqih;Developer
+2720148975c9f64f52dfb36075577753;Feature Completion Checking;6-28-20 11:26;Dalila;Tester
+2720148975c9f64f52dfb36075577753;Software Prototype Upload;07-01-20 0:00;Ahsana;Developer
+2720148975c9f64f52dfb36075577753;Customer Software Testing;07-02-20 1:00;Dalila;Tester
+2720148975c9f64f52dfb36075577753;User Manual Upload;07-03-20 12:00;Dalila;Tester
+2720148975c9f64f52dfb36075577753;Customer Approval of Application;07-05-20 1:00;Yesaya;Customer
+2720148975c9f64f52dfb36075577753;Application Installaton;07-07-20 5:00;Faqih;Developer
+2720148975c9f64f52dfb36075577753;End User Reviews Upload;07-09-20 12:00;Yesaya;Customer
+3238784385c9f7f0c370698067721335;User Story Upload;7-13-20 13:32;Hendy;Customer
+3238784385c9f7f0c370698067721335;Development Process;09-08-20 20:00;Ahsana;Developer
+3238784385c9f7f0c370698067721335;End User Reviews Upload;9-22-20 2:59;Hendy;Customer
+3238784385c9f7f0c370698067721335;Good Features List Upload;9-24-20 2:17;Charis;Developer
+3394077785c9f6e7e9ba667034321136;User Story Upload;9-26-20 15:48;Riana;Customer
+3394077785c9f6e7e9ba667034321136;Definition of Done (Dod) Setting;9-29-20 12:45;Keysa;Requirement Analyst
+3394077785c9f6e7e9ba667034321136;Effort Estimation;10-01-20 2:00;Keysa;Requirement Analyst
+3394077785c9f6e7e9ba667034321136;Prioritization;10-02-20 10:00;Keysa;Requirement Analyst
+3394077785c9f6e7e9ba667034321136;Product Backlog Approval;10-05-20 6:00;Farah;Project Manager
+3394077785c9f6e7e9ba667034321136;Activity Diagram Upload;10-06-20 11:00;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;Activity Diagram Approval;10-07-20 18:00;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;Activity Diagram Upload;10-10-20 14:00;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;Activity Diagram Approval;10-11-20 16:00;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;Use Case Diagram Upload;10-14-20 11:22;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;Use Case Diagram Approval;10-16-20 18:51;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;Use Case Diagram Upload;10-19-20 15:19;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;Use Case Diagram Approval;10-21-20 4:21;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;Class Diagram Upload;10-22-20 7:07;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;Class Diagram Approval;10-25-20 4:14;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;CDM and PDM Upload;10-26-20 11:54;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;CDM and PDM Approval;10-27-20 14:26;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;Software Design Document Upload;10-28-20 20:26;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;Customer Approval of Software Design;10-31-20 10:44;Riana;Customer
+3394077785c9f6e7e9ba667034321136;Scheduling;11-01-20 10:00;Erfan;Designer
+3394077785c9f6e7e9ba667034321136;Schedule Approval;11-04-20 6:00;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;Budget Proposal Upload;11-06-20 12:00;Dewi;Finance
+3394077785c9f6e7e9ba667034321136;Budget Aproval;11-09-20 11:00;Yutika;Head Finance
+3394077785c9f6e7e9ba667034321136;Team Formation;11-11-20 20:00;Marcel;Assistant Project
+3394077785c9f6e7e9ba667034321136;Team Approval of Software Design;11-13-20 2:52;Christi;Lead Developer
+3394077785c9f6e7e9ba667034321136;Job Assignment;11-14-20 9:19;Farah;Project Manager
+3394077785c9f6e7e9ba667034321136;Development Process;11-17-20 6:09;Faqih;Developer
+3394077785c9f6e7e9ba667034321136;Feature Completion Checking;11-18-20 10:13;Dalila;Tester
+3394077785c9f6e7e9ba667034321136;Development Process;11-20-20 19:50;Ahsana;Developer
+3394077785c9f6e7e9ba667034321136;Feature Completion Checking;11-22-20 13:40;Dalila;Tester
+3394077785c9f6e7e9ba667034321136;Software Prototype Upload;11-24-20 16:18;Faqih;Developer
+3394077785c9f6e7e9ba667034321136;Customer Software Testing;11-26-20 21:47;Dalila;Tester
+3394077785c9f6e7e9ba667034321136;User Manual Upload;11-29-20 8:53;Dalila;Tester
+3394077785c9f6e7e9ba667034321136;Customer Approval of Application;11-30-20 21:04;Riana;Customer
+3400544505c9f6511b9cca5007971029;User Story Upload;12-06-20 22:00;Hendy;Customer
+3400544505c9f6511b9cca5007971029;Development Process;1-23-21 18:02;Faqih;Developer
+3400544505c9f6511b9cca5007971029;Application Installaton;02-03-21 18:00;Faqih;Developer
+3400544505c9f6511b9cca5007971029;End User Reviews Upload;02-05-21 1:00;Hendy;Customer
+3400544505c9f6511b9cca5007971029;Good Features List Upload;02-07-21 2:00;Faqih;Developer
+3461845325c9f62299b0242021538261;User Story Upload;02-10-21 2:00;Hendy;Customer
+3461845325c9f62299b0242021538261;Activity Diagram Upload;2-17-21 16:06;Putri;Designer
+3461845325c9f62299b0242021538261;Activity Diagram Approval;2-20-21 3:35;Marcel;Assistant Project
+3461845325c9f62299b0242021538261;Use Case Diagram Upload;2-21-21 22:53;Putri;Designer
+3461845325c9f62299b0242021538261;Use Case Diagram Approval;2-24-21 13:06;Marcel;Assistant Project
+3461845325c9f62299b0242021538261;Class Diagram Upload;2-27-21 4:04;Putri;Designer
+3461845325c9f62299b0242021538261;Class Diagram Approval;2-28-21 13:27;Marcel;Assistant Project
+3461845325c9f62299b0242021538261;CDM and PDM Upload;03-02-21 8:00;Putri;Designer
+3461845325c9f62299b0242021538261;CDM and PDM Approval;03-03-21 22:00;Marcel;Assistant Project
+3461845325c9f62299b0242021538261;Software Design Document Upload;03-05-21 15:00;Putri;Designer
+3461845325c9f62299b0242021538261;Customer Approval of Software Design;03-07-21 11:00;Hendy;Customer
+3461845325c9f62299b0242021538261;Scheduling;03-09-21 16:00;Putri;Designer
+3461845325c9f62299b0242021538261;Schedule Approval;03-11-21 19:00;Marcel;Assistant Project
+3461845325c9f62299b0242021538261;Budget Proposal Upload;3-13-21 12:00;Alya;Finance
+3461845325c9f62299b0242021538261;Budget Aproval;3-14-21 19:02;Yutika;Head Finance
+3461845325c9f62299b0242021538261;Development Process;3-23-21 23:39;Faqih;Developer
+3461845325c9f62299b0242021538261;Feature Completion Checking;3-25-21 7:33;Taufiq;Tester
+3461845325c9f62299b0242021538261;Software Prototype Upload;3-27-21 7:58;Ahsana;Developer
+3461845325c9f62299b0242021538261;Customer Software Testing;3-28-21 23:22;Taufiq;Tester
+3461845325c9f62299b0242021538261;User Manual Upload;3-31-21 14:26;Taufiq;Tester
+3461845325c9f62299b0242021538261;Customer Approval of Application;04-03-21 10:00;Hendy;Customer
+3461845325c9f62299b0242021538261;Application Installaton;04-05-21 23:00;Faqih;Developer
+3461845325c9f62299b0242021538261;End User Reviews Upload;04-08-21 7:00;Hendy;Customer
+3461845325c9f62299b0242021538261;Good Features List Upload;04-10-21 19:00;Faqih;Developer
+3791484205c9f912a3604c6034506127;Activity Diagram Upload;4-22-21 10:28;Putri;Designer
+3791484205c9f912a3604c6034506127;Activity Diagram Approval;4-23-21 23:57;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Activity Diagram Upload;4-25-21 11:42;Putri;Designer
+3791484205c9f912a3604c6034506127;Activity Diagram Approval;4-27-21 0:49;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Use Case Diagram Upload;4-30-21 0:08;Putri;Designer
+3791484205c9f912a3604c6034506127;Use Case Diagram Approval;05-01-21 21:00;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Class Diagram Upload;05-03-21 22:00;Putri;Designer
+3791484205c9f912a3604c6034506127;Class Diagram Approval;05-05-21 22:00;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;CDM and PDM Upload;05-08-21 10:00;Putri;Designer
+3791484205c9f912a3604c6034506127;CDM and PDM Approval;05-11-21 0:00;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;CDM and PDM Upload;05-12-21 14:00;Putri;Designer
+3791484205c9f912a3604c6034506127;CDM and PDM Approval;5-13-21 18:21;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Software Design Document Upload;5-16-21 13:43;Putri;Designer
+3791484205c9f912a3604c6034506127;Customer Approval of Software Design;5-18-21 7:48;Diana;Customer
+3791484205c9f912a3604c6034506127;Product Backlog Approval;5-19-21 20:51;Farah;Project Manager
+3791484205c9f912a3604c6034506127;Activity Diagram Upload;5-21-21 10:36;Putri;Designer
+3791484205c9f912a3604c6034506127;Activity Diagram Approval;5-24-21 4:11;Farah;Project Manager
+3791484205c9f912a3604c6034506127;Use Case Diagram Upload;5-26-21 9:09;Putri;Designer
+3791484205c9f912a3604c6034506127;Use Case Diagram Approval;5-29-21 5:43;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Class Diagram Upload;06-01-21 5:00;Putri;Designer
+3791484205c9f912a3604c6034506127;Class Diagram Approval;06-02-21 19:00;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;CDM and PDM Upload;06-05-21 9:00;Putri;Designer
+3791484205c9f912a3604c6034506127;CDM and PDM Approval;06-07-21 7:00;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Software Design Document Upload;06-09-21 22:00;Putri;Designer
+3791484205c9f912a3604c6034506127;Customer Approval of Software Design;06-12-21 17:00;Diana;Customer
+3791484205c9f912a3604c6034506127;Scheduling;6-13-21 17:42;Putri;Designer
+3791484205c9f912a3604c6034506127;Schedule Approval;6-15-21 12:29;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Budget Proposal Upload;6-17-21 16:13;Alya;Finance
+3791484205c9f912a3604c6034506127;Budget Aproval;6-18-21 22:34;Yutika;Head Finance
+3791484205c9f912a3604c6034506127;Team Formation;6-21-21 7:21;Brendan;Assistant Project
+3791484205c9f912a3604c6034506127;Team Approval of Software Design;6-23-21 6:04;Kaka;Lead Developer
+3791484205c9f912a3604c6034506127;Job Assignment;6-24-21 9:58;Farah;Project Manager
+3791484205c9f912a3604c6034506127;Development Process;6-25-21 21:26;Charis;Developer
+3791484205c9f912a3604c6034506127;Feature Completion Checking;6-27-21 16:33;Ahsana;Tester
+3791484205c9f912a3604c6034506127;Software Prototype Upload;6-29-21 22:01;Taufiq;Developer
+3791484205c9f912a3604c6034506127;Customer Software Testing;07-01-21 4:00;Ahsana;Tester
+3791484205c9f912a3604c6034506127;User Manual Upload;07-02-21 16:00;Ahsana;Tester
+3791484205c9f912a3604c6034506127;Customer Approval of Application;07-04-21 16:00;Diana;Customer
+3791484205c9f912a3604c6034506127;Application Installaton;07-07-21 10:00;Charis;Developer
+4008188935c9f5ee3dbbbe0075397806;User Story Upload;7-15-21 23:39;Riana;Customer
+4008188935c9f5ee3dbbbe0075397806;CDM and PDM Upload;08-10-21 7:00;Putri;Designer
+4008188935c9f5ee3dbbbe0075397806;CDM and PDM Approval;08-12-21 11:00;Marcel;Assistant Project
+4008188935c9f5ee3dbbbe0075397806;Development Process;8-29-21 8:56;Faqih;Developer
+4008188935c9f5ee3dbbbe0075397806;Software Prototype Upload;09-01-21 8:00;Taufiq;Developer
+4008188935c9f5ee3dbbbe0075397806;Customer Software Testing;09-03-21 11:00;Taufiq;Tester
+4008188935c9f5ee3dbbbe0075397806;Application Installaton;09-09-21 2:00;Taufiq;Developer
+4008188935c9f5ee3dbbbe0075397806;Good Features List Upload;9-13-21 12:01;Taufiq;Developer
+4259868495c9f9702e64b83007166719;User Story Upload;9-14-21 14:58;Yesaya;Customer
+4259868495c9f9702e64b83007166719;CDM and PDM Upload;10-07-21 9:00;Lyora;Designer
+4259868495c9f9702e64b83007166719;CDM and PDM Approval;10-09-21 23:00;Brendan;Assistant Project
+4259868495c9f9702e64b83007166719;Development Process;11-02-21 10:00;Faqih;Developer
+4259868495c9f9702e64b83007166719;Feature Completion Checking;11-05-21 10:00;Taufiq;Tester
+4259868495c9f9702e64b83007166719;Software Prototype Upload;11-07-21 22:00;Dalila;Developer
+4259868495c9f9702e64b83007166719;Customer Software Testing;11-08-21 22:00;Taufiq;Tester
+4259868495c9f9702e64b83007166719;User Manual Upload;11-11-21 21:00;Taufiq;Tester
+4259868495c9f9702e64b83007166719;Customer Approval of Application;11-14-21 2:00;Yesaya;Customer
+4259868495c9f9702e64b83007166719;Application Installaton;11-15-21 10:00;Faqih;Developer
+4259868495c9f9702e64b83007166719;End User Reviews Upload;11-17-21 10:00;Yesaya;Customer
+4259868495c9f9702e64b83007166719;Problems List Upload;11-19-21 8:00;Faqih;Developer
+4259868495c9f9702e64b83007166719;Application Installaton;11-20-21 20:00;Faqih;Developer
+4259868495c9f9702e64b83007166719;End User Reviews Upload;11-22-21 23:00;Yesaya;Customer
+4259868495c9f9702e64b83007166719;Good Features List Upload;11-25-21 15:00;Faqih;Developer
+4647612475c9f796c0ba7a3036651904;User Story Upload;11-27-21 7:00;Yesaya;Customer
+4647612475c9f796c0ba7a3036651904;CDM and PDM Upload;12-22-21 12:00;Putri;Designer
+4647612475c9f796c0ba7a3036651904;CDM and PDM Approval;12-24-21 7:00;Brendan;Assistant Project
+4647612475c9f796c0ba7a3036651904;CDM and PDM Upload;12-25-21 11:00;Putri;Designer
+4647612475c9f796c0ba7a3036651904;CDM and PDM Approval;12-26-21 18:00;Brendan;Assistant Project
+4647612475c9f796c0ba7a3036651904;Development Process;1-19-22 12:09;Biandina;Developer
+4647612475c9f796c0ba7a3036651904;Application Installaton;1-31-22 22:06;Biandina;Developer
+4647612475c9f796c0ba7a3036651904;Good Features List Upload;02-04-22 18:00;Biandina;Developer
+4811187705c9fa1d407c8e4063404464;User Story Upload;02-06-22 5:00;Hendy;Customer
+4811187705c9fa1d407c8e4063404464;Development Process;3-31-22 11:12;Faqih;Developer
+4811187705c9fa1d407c8e4063404464;Application Installaton;4-15-22 8:46;Faqih;Developer
+4811187705c9fa1d407c8e4063404464;Good Features List Upload;4-19-22 16:39;Faqih;Developer
+6636665735c9fa9d13753b5096924354;User Story Upload;4-22-22 2:20;Riana;Customer
+6636665735c9fa9d13753b5096924354;CDM and PDM Upload;5-13-22 3:00;Lyora;Designer
+6636665735c9fa9d13753b5096924354;CDM and PDM Approval;5-15-22 3:00;Marcel;Assistant Project
+6636665735c9fa9d13753b5096924354;Development Process;06-01-22 10:00;Faqih;Developer
+6636665735c9fa9d13753b5096924354;Software Prototype Upload;6-17-22 3:30;Faqih;Developer
+6636665735c9fa9d13753b5096924354;Customer Software Testing;6-18-22 17:41;Ahsana;Tester
+6636665735c9fa9d13753b5096924354;User Manual Upload;6-21-22 6:49;Ahsana;Tester
+6636665735c9fa9d13753b5096924354;Customer Approval of Application;6-23-22 12:58;Riana;Customer
+6636665735c9fa9d13753b5096924354;Application Installaton;6-25-22 21:29;Faqih;Developer
+6636665735c9fa9d13753b5096924354;End User Reviews Upload;6-26-22 21:01;Riana;Customer
+6636665735c9fa9d13753b5096924354;Good Features List Upload;6-29-22 9:16;Faqih;Developer
+6854904235c9fa6bfb14b57014525159;User Story Upload;6-30-22 11:06;Hendy;Customer
+6854904235c9fa6bfb14b57014525159;CDM and PDM Upload;7-25-22 3:13;Erfan;Designer
+6854904235c9fa6bfb14b57014525159;CDM and PDM Approval;7-27-22 10:25;Marcel;Assistant Project
+6854904235c9fa6bfb14b57014525159;CDM and PDM Upload;7-29-22 2:53;Erfan;Designer
+6854904235c9fa6bfb14b57014525159;CDM and PDM Approval;7-30-22 7:30;Marcel;Assistant Project
+6854904235c9fa6bfb14b57014525159;Budget Proposal Upload;8-13-22 17:34;Dewi;Finance
+6854904235c9fa6bfb14b57014525159;Budget Aproval;8-15-22 23:28;Yutika;Head Finance
+6854904235c9fa6bfb14b57014525159;Development Process;8-24-22 9:57;Charis;Developer
+6854904235c9fa6bfb14b57014525159;Feature Completion Checking;8-27-22 0:27;Dalila;Tester
+6854904235c9fa6bfb14b57014525159;Development Process;8-29-22 6:13;Taufiq;Developer
+6854904235c9fa6bfb14b57014525159;Feature Completion Checking;8-30-22 21:08;Dalila;Tester
+6854904235c9fa6bfb14b57014525159;Software Prototype Upload;09-01-22 7:00;Charis;Developer
+6854904235c9fa6bfb14b57014525159;Customer Software Testing;09-02-22 12:00;Dalila;Tester
+6854904235c9fa6bfb14b57014525159;User Manual Upload;09-05-22 7:00;Dalila;Tester
+6854904235c9fa6bfb14b57014525159;Application Installaton;9-17-22 4:40;Charis;Developer
+6854904235c9fa6bfb14b57014525159;End User Reviews Upload;9-18-22 20:46;Hendy;Customer
+6854904235c9fa6bfb14b57014525159;Good Features List Upload;9-20-22 13:58;Charis;Developer

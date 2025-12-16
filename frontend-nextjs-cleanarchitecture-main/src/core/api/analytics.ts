@@ -1,5 +1,5 @@
 import { apiClient } from './client';
-import { EvolutionMetric, RoleInteraction, UserCollaboration, BPMNData, MonthlyInteraction, Entity } from '@/core/types/analytics';
+import { EvolutionMetric, RoleInteraction, UserCollaboration, BPMNData, MonthlyInteraction, Entity, OvertimeRisk, ProjectDuration, HandoverFlow, UtilizationMetric } from '@/core/types/analytics';
 
 export const analyticsApi = {
     getOrganizationEvolution: async (params: { start_month: string; end_month: string }) => {
@@ -32,8 +32,9 @@ export const analyticsApi = {
         return response.data;
     },
 
-    getInteractionsTrend: async (year: string) => {
-        const response = await apiClient.get<MonthlyInteraction[]>('/organization/interactions-trend', { params: { year } });
+    getInteractionsTrend: async (year?: string) => {
+        const params = year ? { year } : {};
+        const response = await apiClient.get<MonthlyInteraction[]>('/organization/interactions-trend', { params });
         return response.data;
     },
 
@@ -54,6 +55,11 @@ export const analyticsApi = {
 
     getProjectDurations: async () => {
         const response = await apiClient.get<ProjectDuration[]>('/organization/project-durations');
+        return response.data;
+    },
+
+    getAverageProjectDuration: async () => {
+        const response = await apiClient.get<number>('/organization/project-durations/average');
         return response.data;
     },
 

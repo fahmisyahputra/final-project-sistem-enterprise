@@ -35,7 +35,6 @@ class AnalyticsService:
         return {}
 
     def get_organization_evolution_trend(self, start_month: str, end_month: str) -> List[Dict[str, Any]]:
-        # 1. Get Active Users and Roles per Month
         query_users = """
         MATCH (p:Person)-[w:WORKED_ON]->(c:Case)
         WHERE w.month >= $start_month AND w.month <= $end_month
@@ -44,7 +43,6 @@ class AnalyticsService:
         ORDER BY month
         """
         
-        # 2. Get Total Interactions per Month
         query_interactions = """
         MATCH (p1:Person)-[r:COLLABORATED_IN]-(p2:Person)
         WHERE r.month >= $start_month AND r.month <= $end_month
@@ -56,7 +54,6 @@ class AnalyticsService:
         users_result = self.session.run(query_users, start_month=start_month, end_month=end_month)
         interactions_result = self.session.run(query_interactions, start_month=start_month, end_month=end_month)
         
-        # Merge results
         data_map = {}
         
         for record in users_result:
@@ -130,7 +127,6 @@ class AnalyticsService:
         ]
 
     def get_bpmn_data(self) -> Dict[str, Any]:
-        # Simplified BPMN data extraction: Roles as lanes/pools, Interactions as flows
         query_nodes = "MATCH (r:Role) RETURN r.name as id, 'Role' as type"
         query_edges = """
         MATCH (r1:Role)-[i:INTERACTS_WITH]->(r2:Role)
@@ -145,14 +141,23 @@ class AnalyticsService:
         
         return {"nodes": nodes, "edges": edges}
 
-    def get_monthly_interactions(self, year: str) -> List[Dict[str, Any]]:
-        query = """
-        MATCH (p1:Person)-[r:COLLABORATED_IN]-(p2:Person)
-        WHERE r.month STARTS WITH $year
-        RETURN r.month as month, sum(r.weight) as total_interactions
-        ORDER BY month
-        """
-        result = self.session.run(query, year=year)
+    def get_monthly_interactions(self, year: str = None) -> List[Dict[str, Any]]:
+        if year:
+            query = """
+            MATCH (p1:Person)-[r:COLLABORATED_IN]-(p2:Person)
+            WHERE r.month STARTS WITH $year
+            RETURN r.month as month, sum(r.weight) as total_interactions
+            ORDER BY month
+            """
+            result = self.session.run(query, year=year)
+        else:
+            query = """
+            MATCH (p1:Person)-[r:COLLABORATED_IN]-(p2:Person)
+            RETURN r.month as month, sum(r.weight) as total_interactions
+            ORDER BY month
+            """
+            result = self.session.run(query)
+            
         return [
             {"month": record["month"], "total_interactions": record["total_interactions"]}
             for record in result
@@ -196,6 +201,17 @@ class AnalyticsService:
             {"case_id": record["case_id"], "duration_days": record["duration_days"]}
             for record in result
         ]
+
+    def get_average_project_duration(self) -> float:
+        query = """
+        MATCH (p:Person)-[w:WORKED_ON]->(c:Case)
+        WITH c, min(w.timestamp) as start_time, max(w.timestamp) as end_time
+        WITH duration.between(start_time, end_time).days as duration_days
+        RETURN avg(duration_days) as avg_duration
+        """
+        result = self.session.run(query)
+        record = result.single()
+        return round(record["avg_duration"], 1) if record and record["avg_duration"] else 0.0
 
     def get_handover_flow(self) -> List[Dict[str, Any]]:
         query = """
